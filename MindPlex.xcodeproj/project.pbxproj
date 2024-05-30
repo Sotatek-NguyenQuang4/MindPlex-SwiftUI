@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74DDEF8D2C08850900471B3A /* MindPlexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDEF8C2C08850900471B3A /* MindPlexApp.swift */; };
+		74DDEF8F2C08850900471B3A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDEF8E2C08850900471B3A /* ContentView.swift */; };
+		74DDEF912C08850A00471B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DDEF902C08850A00471B3A /* Assets.xcassets */; };
+		74DDEF942C08850A00471B3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DDEF932C08850A00471B3A /* Preview Assets.xcassets */; };
+		74DDEF9E2C08850A00471B3A /* MindPlexTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDEF9D2C08850A00471B3A /* MindPlexTests.swift */; };
+		74DDEFA82C08850A00471B3A /* MindPlexUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDEFA72C08850A00471B3A /* MindPlexUITests.swift */; };
+		74DDEFAA2C08850A00471B3A /* MindPlexUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDEFA92C08850A00471B3A /* MindPlexUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74DDEF9A2C08850A00471B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74DDEF812C08850900471B3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74DDEF882C08850900471B3A;
+			remoteInfo = MindPlex;
+		};
+		74DDEFA42C08850A00471B3A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74DDEF812C08850900471B3A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74DDEF882C08850900471B3A;
+			remoteInfo = MindPlex;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74DDEF892C08850900471B3A /* MindPlex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindPlex.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DDEF8C2C08850900471B3A /* MindPlexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindPlexApp.swift; sourceTree = "<group>"; };
+		74DDEF8E2C08850900471B3A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		74DDEF902C08850A00471B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74DDEF932C08850A00471B3A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		74DDEF992C08850A00471B3A /* MindPlexTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindPlexTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DDEF9D2C08850A00471B3A /* MindPlexTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindPlexTests.swift; sourceTree = "<group>"; };
+		74DDEFA32C08850A00471B3A /* MindPlexUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindPlexUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74DDEFA72C08850A00471B3A /* MindPlexUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindPlexUITests.swift; sourceTree = "<group>"; };
+		74DDEFA92C08850A00471B3A /* MindPlexUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindPlexUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74DDEF862C08850900471B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DDEF962C08850A00471B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DDEFA02C08850A00471B3A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74DDEF802C08850900471B3A = {
+			isa = PBXGroup;
+			children = (
+				74DDEF8B2C08850900471B3A /* MindPlex */,
+				74DDEF9C2C08850A00471B3A /* MindPlexTests */,
+				74DDEFA62C08850A00471B3A /* MindPlexUITests */,
+				74DDEF8A2C08850900471B3A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74DDEF8A2C08850900471B3A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74DDEF892C08850900471B3A /* MindPlex.app */,
+				74DDEF992C08850A00471B3A /* MindPlexTests.xctest */,
+				74DDEFA32C08850A00471B3A /* MindPlexUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74DDEF8B2C08850900471B3A /* MindPlex */ = {
+			isa = PBXGroup;
+			children = (
+				74DDEF8C2C08850900471B3A /* MindPlexApp.swift */,
+				74DDEF8E2C08850900471B3A /* ContentView.swift */,
+				74DDEF902C08850A00471B3A /* Assets.xcassets */,
+				74DDEF922C08850A00471B3A /* Preview Content */,
+			);
+			path = MindPlex;
+			sourceTree = "<group>";
+		};
+		74DDEF922C08850A00471B3A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				74DDEF932C08850A00471B3A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		74DDEF9C2C08850A00471B3A /* MindPlexTests */ = {
+			isa = PBXGroup;
+			children = (
+				74DDEF9D2C08850A00471B3A /* MindPlexTests.swift */,
+			);
+			path = MindPlexTests;
+			sourceTree = "<group>";
+		};
+		74DDEFA62C08850A00471B3A /* MindPlexUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74DDEFA72C08850A00471B3A /* MindPlexUITests.swift */,
+				74DDEFA92C08850A00471B3A /* MindPlexUITestsLaunchTests.swift */,
+			);
+			path = MindPlexUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74DDEF882C08850900471B3A /* MindPlex */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DDEFAD2C08850A00471B3A /* Build configuration list for PBXNativeTarget "MindPlex" */;
+			buildPhases = (
+				74DDEF852C08850900471B3A /* Sources */,
+				74DDEF862C08850900471B3A /* Frameworks */,
+				74DDEF872C08850900471B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindPlex;
+			productName = MindPlex;
+			productReference = 74DDEF892C08850900471B3A /* MindPlex.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74DDEF982C08850A00471B3A /* MindPlexTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DDEFB02C08850A00471B3A /* Build configuration list for PBXNativeTarget "MindPlexTests" */;
+			buildPhases = (
+				74DDEF952C08850A00471B3A /* Sources */,
+				74DDEF962C08850A00471B3A /* Frameworks */,
+				74DDEF972C08850A00471B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DDEF9B2C08850A00471B3A /* PBXTargetDependency */,
+			);
+			name = MindPlexTests;
+			productName = MindPlexTests;
+			productReference = 74DDEF992C08850A00471B3A /* MindPlexTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74DDEFA22C08850A00471B3A /* MindPlexUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74DDEFB32C08850A00471B3A /* Build configuration list for PBXNativeTarget "MindPlexUITests" */;
+			buildPhases = (
+				74DDEF9F2C08850A00471B3A /* Sources */,
+				74DDEFA02C08850A00471B3A /* Frameworks */,
+				74DDEFA12C08850A00471B3A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74DDEFA52C08850A00471B3A /* PBXTargetDependency */,
+			);
+			name = MindPlexUITests;
+			productName = MindPlexUITests;
+			productReference = 74DDEFA32C08850A00471B3A /* MindPlexUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74DDEF812C08850900471B3A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					74DDEF882C08850900471B3A = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					74DDEF982C08850A00471B3A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 74DDEF882C08850900471B3A;
+					};
+					74DDEFA22C08850A00471B3A = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 74DDEF882C08850900471B3A;
+					};
+				};
+			};
+			buildConfigurationList = 74DDEF842C08850900471B3A /* Build configuration list for PBXProject "MindPlex" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74DDEF802C08850900471B3A;
+			productRefGroup = 74DDEF8A2C08850900471B3A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74DDEF882C08850900471B3A /* MindPlex */,
+				74DDEF982C08850A00471B3A /* MindPlexTests */,
+				74DDEFA22C08850A00471B3A /* MindPlexUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74DDEF872C08850900471B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DDEF942C08850A00471B3A /* Preview Assets.xcassets in Resources */,
+				74DDEF912C08850A00471B3A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DDEF972C08850A00471B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DDEFA12C08850A00471B3A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74DDEF852C08850900471B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DDEF8F2C08850900471B3A /* ContentView.swift in Sources */,
+				74DDEF8D2C08850900471B3A /* MindPlexApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DDEF952C08850A00471B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DDEF9E2C08850A00471B3A /* MindPlexTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74DDEF9F2C08850A00471B3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74DDEFAA2C08850A00471B3A /* MindPlexUITestsLaunchTests.swift in Sources */,
+				74DDEFA82C08850A00471B3A /* MindPlexUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74DDEF9B2C08850A00471B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74DDEF882C08850900471B3A /* MindPlex */;
+			targetProxy = 74DDEF9A2C08850A00471B3A /* PBXContainerItemProxy */;
+		};
+		74DDEFA52C08850A00471B3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74DDEF882C08850900471B3A /* MindPlex */;
+			targetProxy = 74DDEFA42C08850A00471B3A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		74DDEFAB2C08850A00471B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74DDEFAC2C08850A00471B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74DDEFAE2C08850A00471B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindPlex/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZS2FZ7LN4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MindPlex.sotatek.com.MindPlex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74DDEFAF2C08850A00471B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MindPlex/Preview Content\"";
+				DEVELOPMENT_TEAM = 2ZS2FZ7LN4;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MindPlex.sotatek.com.MindPlex;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		74DDEFB12C08850A00471B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZS2FZ7LN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MindPlex.sotatek.com.MindPlexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindPlex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindPlex";
+			};
+			name = Debug;
+		};
+		74DDEFB22C08850A00471B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZS2FZ7LN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MindPlex.sotatek.com.MindPlexTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindPlex.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MindPlex";
+			};
+			name = Release;
+		};
+		74DDEFB42C08850A00471B3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZS2FZ7LN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MindPlex.sotatek.com.MindPlexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindPlex;
+			};
+			name = Debug;
+		};
+		74DDEFB52C08850A00471B3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2ZS2FZ7LN4;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MindPlex.sotatek.com.MindPlexUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindPlex;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74DDEF842C08850900471B3A /* Build configuration list for PBXProject "MindPlex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DDEFAB2C08850A00471B3A /* Debug */,
+				74DDEFAC2C08850A00471B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DDEFAD2C08850A00471B3A /* Build configuration list for PBXNativeTarget "MindPlex" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DDEFAE2C08850A00471B3A /* Debug */,
+				74DDEFAF2C08850A00471B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DDEFB02C08850A00471B3A /* Build configuration list for PBXNativeTarget "MindPlexTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DDEFB12C08850A00471B3A /* Debug */,
+				74DDEFB22C08850A00471B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74DDEFB32C08850A00471B3A /* Build configuration list for PBXNativeTarget "MindPlexUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74DDEFB42C08850A00471B3A /* Debug */,
+				74DDEFB52C08850A00471B3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 74DDEF812C08850900471B3A /* Project object */;
+}
