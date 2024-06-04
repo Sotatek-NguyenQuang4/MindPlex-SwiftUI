@@ -1,0 +1,9 @@
+Command line invocation:
+    /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild -sdk macosx -scheme Yams -project Yams.xcodeproj clean build-for-testing
+
+User defaults from command line:
+    IDEPackageSupportUseBuiltinSCM = YES
+
+Build settings from command line:
+    SDKROOT = macosx14.4
+

@@ -1,0 +1,24 @@
+strings:
+  - inputs: MindPlex/Resources/Localizable/en.lproj
+    filter: .+\.strings$
+    outputs:
+      templateName: structured-swift5
+      output: MindPlex/Resources/Generated/Strings.swift
+
+xcassets:
+   inputs:
+     - MindPlex/Resources/Assets/Colors.xcassets
+     - MindPlex/Resources/Assets/Assets.xcassets
+   outputs:
+     - templateName: swift5
+       params:
+         forceProvidesNamespaces: true
+         enumName: XCAsset
+       output: MindPlex/Resources/Generated/Assets.swift
+  
+fonts:
+  inputs:
+    - MindPlex/Resources/Fonts
+  outputs:
+    - templateName: swift5
+      output: MindPlex/Resources/Generated/Fonts.swift

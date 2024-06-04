@@ -1,0 +1,76 @@
+included:
+- MindPlex
+# General
+disabled_rules: # Disbaled
+  - todo
+  - redundant_string_enum_value
+  - large_tuple
+  - trailing_whitespace
+  - blanket_disable_command
+  - implicit_getter # Disable for Swift 5.2 until SwiftLint fix a false positive case
+
+analyzer_rules:
+  - unused_declaration
+  - unused_import
+
+opt_in_rules:
+  - unused_closure_parameter
+  - empty_enum_arguments
+  - force_unwrapping
+  - vertical_whitespace
+
+colon:
+  apply_to_dictionaries: false
+  
+force_cast: warning
+  
+function_body_length:
+  warning: 300
+  error: 400
+
+cyclomatic_complexity:
+  warning: 25
+  error: 50
+
+type_body_length:
+  - 800 # Warning
+  - 1200 # Error
+
+identifier_name:
+  min_length: 2
+  max_length:
+    warning: 50
+    error: 60
+  
+file_length:
+  - 800 # Warning
+  - 1200 # Error
+
+type_name:
+  min_length: 2
+  max_length:
+    warning: 50
+    error: 60
+
+line_length:
+  ignores_comments: true
+  ignores_urls: true
+  warning: 500
+  error: 800
+
+force_cast: error
+
+force_try: error
+
+nesting:
+  type_level:
+    - 3
+    - 5
+
+function_parameter_count:
+  warning: 12
+  error: 15
+
+
+
+

@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  MindPlex
+
+  Created by Nguyễn Như Quang on 03/06/2024.
+  
+*/
+"Common.Controls.Actions.Back" = "Back";
+
+"Scene.Welcome.JoinDefaultServer" = "Join Mindplex.social";
+"Scene.Welcome.Separator.Or" = "or";
+"Scene.Welcome.LearnMore" = "Learn more";
+"Scene.Welcome.LogIn" = "Log In";
+
+"Scene.ServerRules.Title" = "Some ground rules.";
+"Scene.ServerRules.Subtitle" = "These are set and enforced by the\nmindplex.social moderators.";
+"Scene.ServerRules.Button.Confirm" = "I Agree";

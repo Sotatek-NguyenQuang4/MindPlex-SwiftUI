@@ -11,7 +11,9 @@ import SwiftUI
 struct MindPlexApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                WelcomeView()
+            }
         }
     }
 }
