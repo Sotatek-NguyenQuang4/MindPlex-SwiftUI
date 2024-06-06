@@ -38,6 +38,7 @@ internal enum XCAsset {
       internal static let background = ColorAsset(name: "background")
       internal static let dark1 = ColorAsset(name: "dark.1")
       internal static let mainPrimary1 = ColorAsset(name: "main.primary.1")
+      internal static let mainPrimary100 = ColorAsset(name: "main.primary.100")
       internal static let mainPrimary = ColorAsset(name: "main.primary")
       internal static let mainText = ColorAsset(name: "main.text")
       internal static let mainTitleText = ColorAsset(name: "main.title.text")

@@ -1,15 +1,15 @@
 //
-//  RulesView.swift
+//  PrivacyView.swift
 //  MindPlex
 //
-//  Created by Nguyễn Như Quang on 04/06/2024.
+//  Created by Nguyễn Như Quang on 06/06/2024.
 //
 
 import SwiftUI
 
-struct RulesView: View {
+struct PrivacyView: View {
     
-    @ObservedObject var viewModel: RulesViewModel = RulesViewModel()
+    @ObservedObject var viewModel: PrivacyViewModel = PrivacyViewModel()
     @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
     
     var body: some View {
@@ -18,45 +18,32 @@ struct RulesView: View {
                 .edgesIgnoringSafeArea(.all)
             VStack {
                 // Title Section
-                Text(L10n.Scene.ServerRules.title)
+                Text(L10n.Scene.Privacy.title)
                     .font(FontFamily.TurretRoad.bold.swiftUIFont(size: 24))
                     .foregroundColor(Color(asset: XCAsset.Colors.MainColor.mainText))
                     .padding(.bottom, 6)
                 // Sub Title Section
-                Text(L10n.Scene.ServerRules.subtitle)
+                Text(L10n.Scene.Privacy.description)
                     .multilineTextAlignment(.center)
                     .font(FontFamily.Barlow.regular.swiftUIFont(size: 14))
                     .foregroundColor(Color(asset: XCAsset.Colors.MainColor.secondaryText))
                     .padding(.bottom, 24)
                 // ListView
-                List(viewModel.items) { item in
-                    let index = viewModel.items.firstIndex { $0.name == item.name } ?? 0
-                    HStack {
-                        Text("\(index + 1)")
-                            .frame(width: 30, height: 30)
-                            .multilineTextAlignment(.center)
-                            .font(FontFamily.Barlow.bold.swiftUIFont(size: 14))
-                            .foregroundColor(
+                List {
+                    ForEach(viewModel.items) {  item in
+                        Text(item.name)
+                            .font(FontFamily.Barlow.regular.swiftUIFont(fixedSize: 14))
+                            .foregroundStyle(
                                 Color(asset: XCAsset.Colors.MainColor.mainPrimary)
                             )
-                            .background(
-                                Color(asset: XCAsset.Colors.MainColor.mainPrimary1)
-                            )
-                            .cornerRadius(15)
-                            .padding(.trailing, 12)
-                        Text(item.name)
-                            .font(FontFamily.Barlow.regular.swiftUIFont(size: 15))
-                            .foregroundColor(
-                                Color(asset: XCAsset.Colors.MainColor.mainText)
-                            )
+                            .listRowBackground(Color(.clear))
+                            .listRowSeparator(.hidden)
                     }
-                    .padding(.top, index == 0 ? 24 : 0)
-                    .listRowBackground(Color(.clear))
-                    .listRowSeparator(.hidden)
                 }
                 .listStyle(.plain)
-                .background(Color(asset: XCAsset.Colors.MainColor.dark1))
-                .listRowSpacing(16)
+                .scrollDisabled(true)
+                .frame(height: 90)
+                .background(Color(asset: XCAsset.Colors.MainColor.mainPrimary100))
                 .cornerRadius(14)
                 .padding(.bottom, 16)
                 // Confirm Action
@@ -80,8 +67,14 @@ struct RulesView: View {
     }
 }
 
-struct RulesView_Previews: PreviewProvider {
+struct PrivacyView_Previews: PreviewProvider {
     static var previews: some View {
-        RulesView()
+        Group {
+            PrivacyView()
+                .preferredColorScheme(.light)
+
+            PrivacyView()
+                .preferredColorScheme(.dark)
+        }
     }
 }

@@ -36,6 +36,8 @@
 		742196DF2C0ED3EB00971581 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742196DC2C0ED3EB00971581 /* Fonts.swift */; };
 		742196E02C0ED3EB00971581 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742196DD2C0ED3EB00971581 /* Assets.swift */; };
 		742196E12C0ED3EB00971581 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 742196DE2C0ED3EB00971581 /* Strings.swift */; };
+		7473441D2C116DE6008B733F /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473441C2C116DE6008B733F /* PrivacyView.swift */; };
+		7473441F2C116DF0008B733F /* PrivacyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7473441E2C116DF0008B733F /* PrivacyViewModel.swift */; };
 		74DDEF8D2C08850900471B3A /* MindPlexApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74DDEF8C2C08850900471B3A /* MindPlexApp.swift */; };
 		74DDEF912C08850A00471B3A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DDEF902C08850A00471B3A /* Assets.xcassets */; };
 		74DDEF942C08850A00471B3A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74DDEF932C08850A00471B3A /* Preview Assets.xcassets */; };
@@ -90,6 +92,8 @@
 		742196DC2C0ED3EB00971581 /* Fonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
 		742196DD2C0ED3EB00971581 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		742196DE2C0ED3EB00971581 /* Strings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		7473441C2C116DE6008B733F /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		7473441E2C116DF0008B733F /* PrivacyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewModel.swift; sourceTree = "<group>"; };
 		74DDEF892C08850900471B3A /* MindPlex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindPlex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		74DDEF8C2C08850900471B3A /* MindPlexApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindPlexApp.swift; sourceTree = "<group>"; };
 		74DDEF902C08850A00471B3A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -224,6 +228,24 @@
 			path = Assets;
 			sourceTree = "<group>";
 		};
+		7473441A2C116CAA008B733F /* Privacy */ = {
+			isa = PBXGroup;
+			children = (
+				7473441C2C116DE6008B733F /* PrivacyView.swift */,
+				7473441E2C116DF0008B733F /* PrivacyViewModel.swift */,
+			);
+			path = Privacy;
+			sourceTree = "<group>";
+		};
+		7473441B2C116CAF008B733F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				7473441A2C116CAA008B733F /* Privacy */,
+				742196D52C0EB3FA00971581 /* Rules */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
 		74DDEF802C08850900471B3A = {
 			isa = PBXGroup;
 			children = (
@@ -275,7 +297,7 @@
 		74DDEFB72C088B1700471B3A /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				742196D52C0EB3FA00971581 /* Rules */,
+				7473441B2C116CAF008B733F /* Auth */,
 				742196CE2C0DC5E300971581 /* Welcome */,
 			);
 			path = Screens;
@@ -485,10 +507,12 @@
 				742196D72C0EB41400971581 /* RulesView.swift in Sources */,
 				742196E02C0ED3EB00971581 /* Assets.swift in Sources */,
 				74DDEF8D2C08850900471B3A /* MindPlexApp.swift in Sources */,
+				7473441F2C116DF0008B733F /* PrivacyViewModel.swift in Sources */,
 				742196D42C0DDD1B00971581 /* StyleButton.swift in Sources */,
 				742196D92C0EBBE800971581 /* RulesViewModel.swift in Sources */,
 				74DDEFBC2C088B4900471B3A /* APIClient.swift in Sources */,
 				742196D02C0DC5EF00971581 /* WelcomeView.swift in Sources */,
+				7473441D2C116DE6008B733F /* PrivacyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

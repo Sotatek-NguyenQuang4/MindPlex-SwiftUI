@@ -15,3 +15,9 @@
 "Scene.ServerRules.Title" = "Some ground rules.";
 "Scene.ServerRules.Subtitle" = "These are set and enforced by the\nmindplex.social moderators.";
 "Scene.ServerRules.Button.Confirm" = "I Agree";
+
+"Scene.Privacy.Title" = "Privacy";
+"Scene.Privacy.Description" = "Although the Mindplex app does not collect any data,\nthe server you sign up through may have a different\npolicy. Take a minute to review and agree to the\nMindplex app privacy policy and your server’s privacy\npolicy.";
+"Scene.Privacy.Policy.Ios" = "Privacy Policy - Mindplex for iOS";
+"Scene.Privacy.Policy.Server" = "Privacy Policy - Mindplex.social";
+"Scene.Privacy.Button.Confirm" = "I Agree";

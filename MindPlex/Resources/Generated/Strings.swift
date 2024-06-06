@@ -22,6 +22,22 @@ internal enum L10n {
     }
   }
   internal enum Scene {
+    internal enum Privacy {
+      /// Although the Mindplex app does not collect any data, the server you sign up through may have a different policy. Take a minute to review and agree to the Mindplex app privacy policy and your server’s privacy policy.
+      internal static let description = L10n.tr("Localizable", "Scene.Privacy.Description", fallback: "Although the Mindplex app does not collect any data, the server you sign up through may have a different policy. Take a minute to review and agree to the Mindplex app privacy policy and your server’s privacy policy.")
+      /// Privacy
+      internal static let title = L10n.tr("Localizable", "Scene.Privacy.Title", fallback: "Privacy")
+      internal enum Button {
+        /// I Agree
+        internal static let confirm = L10n.tr("Localizable", "Scene.Privacy.Button.Confirm", fallback: "I Agree")
+      }
+      internal enum Policy {
+        /// Privacy Policy - Mindplex for iOS
+        internal static let ios = L10n.tr("Localizable", "Scene.Privacy.Policy.Ios", fallback: "Privacy Policy - Mindplex for iOS")
+        /// Privacy Policy - Mindplex.social
+        internal static let server = L10n.tr("Localizable", "Scene.Privacy.Policy.Server", fallback: "Privacy Policy - Mindplex.social")
+      }
+    }
     internal enum ServerRules {
       /// These are set and enforced by the
       /// mindplex.social moderators.
