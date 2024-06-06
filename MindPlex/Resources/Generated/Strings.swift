@@ -23,8 +23,12 @@ internal enum L10n {
   }
   internal enum Scene {
     internal enum Privacy {
-      /// Although the Mindplex app does not collect any data, the server you sign up through may have a different policy. Take a minute to review and agree to the Mindplex app privacy policy and your server’s privacy policy.
-      internal static let description = L10n.tr("Localizable", "Scene.Privacy.Description", fallback: "Although the Mindplex app does not collect any data, the server you sign up through may have a different policy. Take a minute to review and agree to the Mindplex app privacy policy and your server’s privacy policy.")
+      /// Although the Mindplex app does not collect any data,
+      /// the server you sign up through may have a different
+      /// policy. Take a minute to review and agree to the
+      /// Mindplex app privacy policy and your server’s privacy
+      /// policy.
+      internal static let description = L10n.tr("Localizable", "Scene.Privacy.Description", fallback: "Although the Mindplex app does not collect any data,\nthe server you sign up through may have a different\npolicy. Take a minute to review and agree to the\nMindplex app privacy policy and your server’s privacy\npolicy.")
       /// Privacy
       internal static let title = L10n.tr("Localizable", "Scene.Privacy.Title", fallback: "Privacy")
       internal enum Button {
@@ -59,6 +63,20 @@ internal enum L10n {
       internal enum Separator {
         /// or
         internal static let or = L10n.tr("Localizable", "Scene.Welcome.Separator.Or", fallback: "or")
+      }
+      internal enum Sheet {
+        internal enum Intro {
+          /// Mindplex is decentralized social network, meaning no single company controls it. It’s made up of many independently-run servers, all connected together.
+          internal static let description = L10n.tr("Localizable", "Scene.Welcome.Sheet.Intro.Description", fallback: "Mindplex is decentralized social network, meaning no single company controls it. It’s made up of many independently-run servers, all connected together.")
+          /// Welcom to Mindplex
+          internal static let title = L10n.tr("Localizable", "Scene.Welcome.Sheet.Intro.Title", fallback: "Welcom to Mindplex")
+        }
+        internal enum Server {
+          /// Every Mindplex account is hosted on a server-each with its own values, rules, & admins. No matter which one you pick, you can follow and interact with people on any server.
+          internal static let description = L10n.tr("Localizable", "Scene.Welcome.Sheet.Server.Description", fallback: "Every Mindplex account is hosted on a server-each with its own values, rules, & admins. No matter which one you pick, you can follow and interact with people on any server.")
+          /// What are servers?
+          internal static let title = L10n.tr("Localizable", "Scene.Welcome.Sheet.Server.Title", fallback: "What are servers?")
+        }
       }
     }
   }

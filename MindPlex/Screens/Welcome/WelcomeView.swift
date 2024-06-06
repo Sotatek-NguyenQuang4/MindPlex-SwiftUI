@@ -9,6 +9,9 @@ import SwiftUI
 
 struct WelcomeView: View {
     
+    @State private var showingCredits = false
+    let heights = stride(from: 0.1, through: 1.0, by: 0.1).map { PresentationDetent.fraction($0) }
+
     var body: some View {
         ZStack {
             Color(asset: XCAsset.Colors.MainColor.background)
@@ -45,9 +48,16 @@ struct WelcomeView: View {
                         // Learn more / Log In Button
                         HStack {
                             Button(L10n.Scene.Welcome.learnMore) {
-                                print("LearnMore tapped!")
+                                showingCredits.toggle()
                             }
                             .buttonStyle(StyleButton(style: .plain))
+                            .sheet(isPresented: $showingCredits) {
+                                ZStack {
+                                    WelcomeBottomSheetView()
+                                        .presentationDetents([.height(250)])
+                                }
+                            }
+                            
                             Button(L10n.Scene.Welcome.logIn) {
                                 print("LogIn tapped!")
                             }

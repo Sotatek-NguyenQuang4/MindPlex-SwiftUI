@@ -11,6 +11,10 @@
 "Scene.Welcome.Separator.Or" = "or";
 "Scene.Welcome.LearnMore" = "Learn more";
 "Scene.Welcome.LogIn" = "Log In";
+"Scene.Welcome.Sheet.Intro.Title" = "Welcom to Mindplex";
+"Scene.Welcome.Sheet.Intro.Description" = "Mindplex is decentralized social network, meaning no single company controls it. It’s made up of many independently-run servers, all connected together.";
+"Scene.Welcome.Sheet.Server.Title" = "What are servers?";
+"Scene.Welcome.Sheet.Server.Description" = "Every Mindplex account is hosted on a server-each with its own values, rules, & admins. No matter which one you pick, you can follow and interact with people on any server.";
 
 "Scene.ServerRules.Title" = "Some ground rules.";
 "Scene.ServerRules.Subtitle" = "These are set and enforced by the\nmindplex.social moderators.";
